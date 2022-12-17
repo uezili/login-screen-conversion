@@ -1,18 +1,13 @@
 import './App.css';
+import UserBox from './Components/Userbox';
 
 const App = () => {
   return (
     <div className="login-box">
       <h2>Login</h2>
       <form>
-        <div className="user-box">
-          <input type="text" name="" required="" />
-          <label>Usuário</label>
-        </div>
-        <div className="user-box">
-          <input type="password" name="" required="" />
-          <label>Senha</label>
-        </div>
+        <UserBox type="text" label="User" />
+        <UserBox type="password" label="Password" />
         <a href="#">
           <span></span>
           <span></span>
