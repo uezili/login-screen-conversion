@@ -23,7 +23,7 @@ body {
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
-  color: #fff;
+  color: #ff0043;
   text-align: center;
 }
 .login-box .user-box {
@@ -75,8 +75,8 @@ body {
   background: #ff0043;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #d0ff00, 0 0 25px #d0ff00, 0 0 50px #00ffd5,
-    0 0 100px #ff9100;
+  box-shadow: 0 0 5px #ff0043, 0 0 25px #ff7300, 0 0 50px #00a2ff,
+    0 0 100px #ff0000;
 }
 .login-box a span {
   position: absolute;
@@ -87,8 +87,9 @@ body {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #d0ff00);
+  background: linear-gradient(90deg, transparent, #ff00bf);
   animation: btn-anim1 1s linear infinite;
+
 }
 @keyframes btn-anim1 {
   0% {
@@ -104,7 +105,7 @@ body {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #00ff37);
+  background: linear-gradient(180deg, transparent, #00c3ff);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -122,7 +123,7 @@ body {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #00ffd5);
+  background: linear-gradient(270deg, transparent, #2600ff);
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -140,13 +141,13 @@ body {
   left: 0%;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #ff9100);
+  background: linear-gradient(360deg, transparent, #ffd900);
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }
 @keyframes btn-anim4 {
   0% {
-    bottom: -100;
+    bottom: -100%;
   }
   50%,
   100% {
