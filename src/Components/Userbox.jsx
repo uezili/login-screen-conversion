@@ -1,4 +1,4 @@
-function UserBox(props) {
+export function UserBox(props) {
 	return (
 		<div className="user-box">
 			<input type={props.type} name="" required="" />
@@ -7,4 +7,3 @@ function UserBox(props) {
 	);
 }
 
-export default UserBox;
